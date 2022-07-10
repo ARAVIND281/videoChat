@@ -108,7 +108,7 @@ $(function () {
     })
 
 })
-$("invite_button").click(function () {
+$("#invite_button").click(function () {
     const to = prompt("Email of your friend")
     let Data = {
         url: window.location.href,
